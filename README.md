@@ -1,4 +1,4 @@
-# sql_repo
+# sql_repo : Data Warehouse and Analytics Project
 This is my first SQL Project: From developping a data warehouse using SQL Server to generating business and actionable insights.
 
 ### Specifications
