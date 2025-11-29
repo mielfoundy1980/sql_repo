@@ -1,6 +1,10 @@
+/*
+====================================================
+DDL Script : Create Silver Tables from Bronze Tables.
+Dropping exsisting tables if they exist, then Create tables in the 'Silver' Schema.
+====================================================
+*/
 
-/* Create Tables in the Silver layers, CRM Source */
-/* CRM Tables */
 IF OBJECT_ID('Silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE Silver.crm_cust_info;
 
